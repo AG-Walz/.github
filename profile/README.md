@@ -25,9 +25,3 @@ If there is a request for a new pipeline, then you can make the request in the p
 | [Data management](https://github.com/AG-Walz/data-management) | This repository is reserved with all of the code and procedures that are necessary for the group's data management| HP, MD | MD |
 | [Scripts](https://github.com/AG-Walz/smallScripts) | MD | MD|
 | [Student](https://github.com/AG-Walz/students) | Work of the current and previous students saved in one repository | JS, CS | JS, CS |
-
-## Removed functionalities
-
-| Pipeline | Responsible person | Date untill removal |
-| --- | --- | --- |
-| `post_PEAKs` | Marissa Dubbelaar | 04 November 2021 |

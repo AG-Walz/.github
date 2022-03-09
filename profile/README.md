@@ -21,7 +21,7 @@ If there is a request for a new pipeline, then you can make the request in the p
 | [kmer_calculator](https://github.com/AG-Walz/kmer_calculator) | Generates the kmer (mutation/sequences) | MW, JB, AN | MD |
 | [protein_spotter](https://github.com/AG-Walz/protein_spotter) | Performs the detection of the hot and darkspot of proteins | MW, YM & TB | MD |
 | [uniform_file_writer](https://github.com/AG-Walz/uniform_file_writer) | Content that can be used with the protein discoverer output, making the outcome uniform (regardless of the version) | NHG, LM & AN | MD |
+| [Scripts](https://github.com/AG-Walz/smallScripts) | If your pipeline of interest is not present, then you might find it here (functionality too small to call it a pipeline)| MD | MD|
 ||||
 | [Data management](https://github.com/AG-Walz/data-management) | This repository is reserved with all of the code and procedures that are necessary for the group's data management| HP, MD | MD |
-| [Scripts](https://github.com/AG-Walz/smallScripts) | MD | MD|
 | [Student](https://github.com/AG-Walz/students) | Work of the current and previous students saved in one repository | JS, CS | JS, CS |

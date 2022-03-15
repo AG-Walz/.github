@@ -7,8 +7,9 @@ If you are new to this repository then I would like to **"show"** you around. It
 * When using a repository, keep the folder structure as it is, meaning download the whole directory and dont move the content after downloading it
 * In case of an error
   1. [RTFM](https://nl.wikipedia.org/wiki/Read_the_fucking_manual) 🤦: you are an adult, therefore, we assume that the bioinformaticians don't have to do this for you 🤷‍♀️
-  2. *Google, google, google*: check if the error might occur from your side (a library which is not installed or maybe a non-existant file is used) ✅
-  3. Notify your bioinformatician if there is a problem with the code (error, enhancements, etc) by making an issue in the respective repository and fill in the `bug` or `feature` report properly (I mean come on we are academics here... 😅). It is helpfull to also give an indication here how **urgent** your issue is ⏲️
+  2. Check if a similar issue already exists or has been closed before in the pipeline.
+  3. *Google, google, google*: check if the error might occur from your side (a library which is not installed or maybe a non-existant file is used) ✅
+  4. Notify your bioinformatician if there is a problem with the code (error, enhancements, etc) by making an issue in the respective repository and fill in the `bug` or `feature` report properly (I mean come on we are academics here... 😅). It is helpfull to also give an indication here how **urgent** your issue is ⏲️
 * When something is not working, the matter is urgent, and the bioinformaticiancs are busy: `use another version`. We are doing over-hours as it is without the external pressure, however, you catch more flies with honey than vinegar 😇
 * If there is information missing in the README, then please contribute to improve it teamwork makes the dream work 💪
 

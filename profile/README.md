@@ -122,7 +122,6 @@ If you dont see anything when you run `Sys.getenv('GITHUB_MAIL')`, then the firs
 | [kmer_calculator](https://github.com/AG-Walz/kmer_calculator) | Generates the kmer (mutation/sequences) | MW, JB, AN | MD |
 | [mhcquant_report_generator](https://github.com/AG-Walz/mhcquant_report_generator) | Quality check report that can be generated after the MHCquant report | JB, MD | MD |
 | [MTB_sheet_writer](https://github.com/AG-Walz/MTB_sheet_writer) | This functionality can be used to obtain all of the information which is necessary for MTB related data | JB | MD |
-
 | [organism retriever](https://github.com/AG-Walz/organism_retriever) | Determines in which species a peptide is identified | JB | MD |
 | [protein_spotter](https://github.com/AG-Walz/protein_spotter) | Performs the detection of the hot and darkspot of proteins | MW, YM & TB | MD |
 | [uniform_file_writer](https://github.com/AG-Walz/uniform_file_writer) | Content that can be used with the protein discoverer output, making the outcome uniform (regardless of the version) | NHG, LM & AN | MD |

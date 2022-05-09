@@ -120,6 +120,7 @@ If you dont see anything when you run `Sys.getenv('GITHUB_MAIL')`, then the firs
 | [frameshift_shuffle](https://github.com/AG-Walz/frameshift_shuffle) | Functionality that can be used where there are frameshift as a result of somatic alterations, ultimately translating to kmers surrounding the mutation site | MW | MD & SL |
 | [gene_ontology_generator](https://github.com/AG-Walz/gene_ontology_annotator) | Annotates a list (of multiple conditions) to the gene functions and results in the generation of various figures (per condition and comparing conditions that are present in one file)  | MD | MD |
 | [kmer_calculator](https://github.com/AG-Walz/kmer_calculator) | Generates the kmer (mutation/sequences) | MW, JB, AN | MD & SL |
+| [ligandomat](https://github.com/AG-Walz/ligandomat) | Functionality to predict the binders | All | JS |
 | [mhcquant_report_generator](https://github.com/AG-Walz/mhcquant_report_generator) | Quality check report that can be generated after the MHCquant report | JB, MD | JS & MD |
 | [MTB_sheet_writer](https://github.com/AG-Walz/MTB_sheet_writer) | This functionality can be used to obtain all of the information which is necessary for MTB related data | JB | MD |
 | [organism retriever](https://github.com/AG-Walz/organism_retriever) | Determines in which species a peptide is identified | JB | MD |

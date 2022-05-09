@@ -117,14 +117,14 @@ If you dont see anything when you run `Sys.getenv('GITHUB_MAIL')`, then the firs
 | --- | --- | --- | --- |
 | [CLL_cocktail_definer](https://github.com/AG-Walz/CLL_cocktail_definer) | Code that is used for the cocktail definition | MW | MD |
 | [easy_waterfall](https://github.com/AG-Walz/easy_waterfall) | Generates a nice waterfall plot | MW | MD |
-| [frameshift_shuffle](https://github.com/AG-Walz/frameshift_shuffle) | Functionality that can be used where there are frameshift as a result of somatic alterations, ultimately translating to kmers surrounding the mutation site | MW | MD |
+| [frameshift_shuffle](https://github.com/AG-Walz/frameshift_shuffle) | Functionality that can be used where there are frameshift as a result of somatic alterations, ultimately translating to kmers surrounding the mutation site | MW | MD & SL |
 | [gene_ontology_generator](https://github.com/AG-Walz/gene_ontology_annotator) | Annotates a list (of multiple conditions) to the gene functions and results in the generation of various figures (per condition and comparing conditions that are present in one file)  | MD | MD |
-| [kmer_calculator](https://github.com/AG-Walz/kmer_calculator) | Generates the kmer (mutation/sequences) | MW, JB, AN | MD |
-| [mhcquant_report_generator](https://github.com/AG-Walz/mhcquant_report_generator) | Quality check report that can be generated after the MHCquant report | JB, MD | MD |
+| [kmer_calculator](https://github.com/AG-Walz/kmer_calculator) | Generates the kmer (mutation/sequences) | MW, JB, AN | MD & SL |
+| [mhcquant_report_generator](https://github.com/AG-Walz/mhcquant_report_generator) | Quality check report that can be generated after the MHCquant report | JB, MD | MD & JS |
 | [MTB_sheet_writer](https://github.com/AG-Walz/MTB_sheet_writer) | This functionality can be used to obtain all of the information which is necessary for MTB related data | JB | MD |
 | [organism retriever](https://github.com/AG-Walz/organism_retriever) | Determines in which species a peptide is identified | JB | MD |
-| [protein_spotter](https://github.com/AG-Walz/protein_spotter) | Performs the detection of the hot and darkspot of proteins | MW, YM & TB | MD |
-| [uniform_file_writer](https://github.com/AG-Walz/uniform_file_writer) | Content that can be used with the protein discoverer output, making the outcome uniform (regardless of the version) | NHG, LM & AN | MD |
+| [protein_spotter](https://github.com/AG-Walz/protein_spotter) | Performs the detection of the hot and darkspot of proteins | MW, YM & TB | MD & SL |
+| [uniform_file_writer](https://github.com/AG-Walz/uniform_file_writer) | Content that can be used with the protein discoverer output, making the outcome uniform (regardless of the version) | NHG, LM & AN | MD & JS |
 | [Scripts](https://github.com/AG-Walz/smallScripts) | If your pipeline of interest is not present, then you might find it here (functionality too small to call it a pipeline)| MD | MD|
 ||||
 | [Data management](https://github.com/AG-Walz/data-management) | This repository is reserved with all of the code and procedures that are necessary for the group's data management| HP, MD | MD |

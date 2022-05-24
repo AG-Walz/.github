@@ -13,12 +13,9 @@ If you are new to this repository then I would like to **"show"** you around. It
 * When something is not working, the matter is urgent, and the bioinformaticiancs are busy: `use another version`. We are doing over-hours as it is without the external pressure, however, you catch more flies with honey than vinegar 😇
 * If there is information missing in the README, then please contribute to improve it teamwork makes the dream work 💪
 
-#
 
-# How to use
-If this is the first time that you are running this pipeline, it is of importance to check if all of the libraries are installed. This means that you do not run the code and expect that everything is working 😅, instead we take it slow.
-
-## First timers 
+## How to use - first timers edition
+If this is the first time that you are running pipelines, it is of importance to check the content below. 
 
 <details>
 <summary>Installing R (and Rstudio)</summary>

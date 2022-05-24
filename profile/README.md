@@ -15,6 +15,19 @@ If you are new to this repository then I would like to **"show"** you around. It
 
 #
 
+# How to use
+If this is the first time that you are running this pipeline, it is of importance to check if all of the libraries are installed. This means that you do not run the code and expect that everything is working 😅, instead we take it slow.
+
+## First timers 
+
+<details>
+<summary>Installing R (and Rstudio)</summary>
+
+\
+The first thing (if you are here for the first time) is to install [R](https://cran.r-project.org/bin/windows/base/) and if you want to make you life easy [Rstudio](https://www.rstudio.com/). Please be kind to you friendly neighborhood bioinformatician (🕷️) and install everything in English 😅.
+ 
+</details>
+
 <details markdown="1">
 
 <summary>Set up GitHub access code</summary>
@@ -110,6 +123,115 @@ Add-Content c:\Users\$env:USERNAME\Documents\.Renviron "GITHUB_PAT=[personalized
 If you dont see anything when you run `Sys.getenv('GITHUB_MAIL')`, then the first rule when something goes wrong is [RTFM](https://en.wikipedia.org/wiki/RTFM), however you can also try to bribe your favorite bioinformatician (maybe this works).
 
 </details>
+
+<details>
+<summary>Using Bioconductor</summary>
+
+ \
+The next important thing is to install bioconductor, since you might need this to install some of the functionalities. You can do this bu runing the following piece of code:
+
+```
+install.packages("BiocManager")
+```
+Make sure that no errors occur, then you are ready to proceed
+ 
+</details>
+ 
+<details>
+<summary>Checking libraries</summary>
+
+\
+The most important thing is to check if all of the different libraries are there. When you stumble accross the following piece of code pay close attention!
+
+```
+################################################################################
+###                             Load libraries                               ###
+################################################################################
+## Load the libraries
+necessaryLibs <- c("example")
+
+## Load the necessary libraries()
+invisible(lapply(necessaryLibs, library, character.only = T))
+```
+
+All of the libraries in the list of `necessaryLibs` needs to be installed since we need these packages for some of the functionalities to run. It could happen that you did not install a package yet, then you will get the following error:
+```
+library(example)
+Error in library(example) : there is no package called ‘example’
+```
+To resolve this problem we have to install the packages, which we do using the following command
+```install.packages("example")```
+If that does not work, then we can use 
+```BiocManager::install("example")```
+Make sure that you put the qoutation marks around the package of interest.
+
+If everything is installed, and `invisible(lapply(necessaryLibs, library, character.only = T))` runs without errors, then we can finally run the rest of the code
+> Note, it could be that you see red text, and **error** is only an error when it is mentioned explicity!
+
+</details>
+ 
+---
+
+<!--
+# How to use
+Since this pipeline depends on different r packages that are developed by external parties, it is of importance to consider that you follow the steps in this paragraph. Enabling the corresponding libraries is completely dependent on [conda](https://docs.conda.io/en/latest/). Make sure that you install  conda on your device: [Windows](https://docs.conda.io/projects/conda/en/latest/user-guide/install/windows.html) or [Mac](https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html). If you already ran this pipeline before you can skip to [run the pipeline](#run-the-pipeline), otherwise check out how to setup Conda below.
+
+## Conda setup
+If this is the first time that you are running this pipeline, it is of importance to generate the correct environment.
+
+**1. Open a terminal**: check out the [getting started](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html#starting-conda) paragraph which shows you to open the prompt terminal.
+ 
+**2. Add channels**: to make sure that we can install all of the packages that we need.
+ Copy-paste the following lines in the terminal that you opened in the previous step.
+ 
+```
+conda config --add channels conda-forge
+conda config --add channels bioconda
+conda config --add channels r
+```
+ 
+To check if this step was successful you can use `conda config --show channels` to retrieve a list with all of the channels that you have installed. This should look something like this:
+
+```
+- r
+- bioconda
+- conda-forge
+- defaults
+```
+ 
+**3. Create environment**: you have to run the following command in the prompt terminal to make sure that we have all of the right libraries that are necessary to run our pipeline.
+
+```
+conda create -n uniform_file_writer r-doparallel r-dplyr r-foreach r-future r-openxlsx r-plyr r-readxl r-tuple r-rstudioapi
+```
+
+After you ran this line, you will be asked whether you want to proceed, type `y` (of course 🤷‍♀️). Now, all of the necessary libraries are going to be installed in the environment `uniform_file_writer`. At the end, you will get a message with the text that everything is done and that you can activate and deactivate the environment with the belonging commands (see example below). 
+ 
+```
+done
+Executing transaction: | 
+| 
+done
+#
+# To activate this environment, use
+#
+#     $ conda activate uniform_file_writer
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate 
+```
+
+Now you can start with the next step to make sure that you can perform the analysis 💪!
+
+### Run pipeline
+If you already have the `uniform_file_writer` environment, then we don't have to do a lot anymore! You already have the environment which is necessary to run the pipeline with 🙌!
+
+The first step is to `open the prompt terminal`. If you have forgotten how to do this, then check out [getting started](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html#starting-conda). Next, we are going to activate the conda environment with all of the libraries that are necessary to run the pipeline with `conda activate uniform_file_writer`. The last part is to open [RStudio](https://www.rstudio.com/) with the following command for Windows `open Rstudio` or Mac `open -na Rstudio`. In **RStudio**, you can open an `existing file`, where you can open up the main.R script.
+From here on, you can run the pipeline 🎉!!
+-->
+
+
 
 #
 

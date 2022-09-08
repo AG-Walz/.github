@@ -240,7 +240,6 @@ From here on, you can run the pipeline 🎉!!
 | [gene_ontology_generator](https://github.com/AG-Walz/gene_ontology_annotator) | Annotates a list (of multiple conditions) to the gene functions and results in the generation of various figures (per condition and comparing conditions that are present in one file)  | MD | MD |
 | [kmer_calculator](https://github.com/AG-Walz/kmer_calculator) | Generates the kmer (mutation/sequences) | MW, JB, AN | MD & SL |
 | [ligandomat](https://github.com/AG-Walz/ligandomat) | Functionality to predict the binders | All | JS |
-| [QC](https://github.com/AG-Walz/QC) | Quality check report that can be generated after the MHCquant report | JB, MD | MD |
 | [mhcquant_handler](https://github.com/AG-Walz/mhcquant_handler) | The script that can be ran before the ligandomat, making sure that the files are annotated properly for further analyses | JB, MD | MD |
 | [MTB_sheet_writer](https://github.com/AG-Walz/MTB_sheet_writer) | This functionality can be used to obtain all of the information which is necessary for MTB related data | JB | MD, JS |
 | [organism retriever](https://github.com/AG-Walz/organism_retriever) | Determines in which species a peptide is identified | JB | MD |

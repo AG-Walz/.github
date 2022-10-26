@@ -1,5 +1,3 @@
-
-## Research
 In recent years, immunotherapy, i.e. the specific induction of anti-tumor immune responses, has revolutionized the treatment of cancer. However, such immunotherapeutic approaches are not yet available for all cancer entities and many patients often do not respond or only respond for a limited time to currently available therapeutic options. Here, peptide-based immunotherapy represents a comparatively low side-effect option for inducing specific immune responses against tumor cells in patients.
 
 Peptide-based immunotherapy offers a comparatively low side-effect option for inducing specific immune responses against tumor cells in patients. Peptides are short protein fragments that each body cell presents on its surface to the T cells of the immune system on so-called human leukocyte antigens (HLA).
